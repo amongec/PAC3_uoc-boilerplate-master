@@ -15,10 +15,6 @@ body {
   display: block;
 }
 
-a:link {
-  color: #3c948c;
-}
-
 .grid > * {
   padding: 10px;
   color: #271c18;
