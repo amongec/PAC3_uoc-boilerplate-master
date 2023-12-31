@@ -54,6 +54,8 @@ Content lives inside the `src/` folder. If you do not want to change the configu
 
 Always run the following commands during the development stage and for production builds. Please note that it is expected that all projects built with this boilerplate are compiled using `npm run build` before they are published.
 
+<img width="680" alt="pec3-html-css-II" src="src/assets/img/pec3-html-css.png">
+
 ### Commands
 
 | Command         | Description                                                                                                                                                                                                                                                                                                                                                         |
