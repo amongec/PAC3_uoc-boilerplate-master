@@ -59,7 +59,7 @@ body {
 }
 
 /* ---------------------END section1: portada ------------------------ */
-/* ---------------------END scroll: portada -------------------------------- */
+/* --------------------- scroll: portada -------------------------------- */
 .flex {
   display: grid;
   gap: 4rem;
@@ -69,7 +69,6 @@ body {
 }
 
 /* --------------------------------- END scroll: portada---------------------- */
-
 /* --------------------------------- cookies banner-------------------------------- */
 #cb-cookie-banner { 
   background-color: #fff;
@@ -94,24 +93,7 @@ h6:hover {
   flex-direction: column-reverse;
   display: flex;
 }
-
-.scrolling-wrapper img {
-  height: 2rem;
-}
-
-.scrolling-wrapper {
- animation: slide 15s linear infinite;
- overflow-x: auto;
-}
-
-.container-fluid {
-  margin:0;
-  width: 60vw;
-  opacity: 0.8;
-}
-
 /* ---------------------END cookies banner ------------------------ */
-
 /* -----------botón flotante de acción  "Ver en google maps" "----------------------------*/
 .btn-flotante {
 	font-size: 14px;
