@@ -1,0 +1,54 @@
+<include name="partial-header" src="./partials/header.html"></include>
+<body id="blog" class="text-left content-auto" >
+  <!-- Background image -->
+  <div class="section1 h-screen w-full gap-4 grid grid-cols-2 grid-rows-3">
+    <div class="gradient-custom"=”[mark-type:gradient]”>
+      <!-- END Background image -->
+      <div id="grid" class="main">
+        <div class="absolute z-11">
+          <div class="col mt-11">
+            <h3 class="responsive-text text-lg md:text-xl xl:text-2xl">Centro-deportivo<strong> Balmes-Roc</strong></h3>
+            <p class="text italic"><b>Clases extra escolares </b></p>
+            <p class="italic"><b>para los más jóvenes.</b></p>
+            <br>
+            <p>
+              Entrenamiento, gimnasio y piscina <br><strong>todo el año. </strong></p>
+            <button class="btn bg-stone-800/95 hover:bg-amber-500 rounded-md text-white font-bold py-2 px-4 mt-5 shadow-lg shadow-stone-600/50">
+              <a href="#"> Únete al equipo!
+              </a></button>
+          </div>
+          <p class="promo mt-8 pt-8">Patrocinado:</p>
+            <div class="flex w-full gap-4 overflow-x-auto group ">
+              <div class="flex snap-startshrink-0 focus:scroll-auto group-hover:paused text-center">
+              <img loading="lazy" src="./assets/images/LasTresTorres.jpg" class="w-16 md:w-32" alt="imagen corporativa Las Tres Torres">
+              <img loading="lazy" src="./assets/images/SportLine.jpg" class="w-16 md:w-32" alt="imagen corporativa SportLine">
+              <img loading="lazy" src="./assets/images/TenisMont_640.jpg" class="w-16 md:w-32" alt="imagen corporativa Tenis Mont">
+              <img loading="lazy" src="./assets/images/Team-Palafrugell_640.jpg" class="w-16 md:w-32" alt="Team Palafrugell">
+              <img loading="lazy" src="./assets/images/Solis.jpg" class="w-16 md:w-32" alt="imagen corporativa Solis">
+              <img loading="lazy" src="./assets/images/Millan.jpg" class="w-16 md:w-32" alt="imagen corporativa Millan">
+              <img loading="lazy" src="./assets/images/deportivo.jpg" class="w-16 md:w-32" alt="imagen corporativa deportivo">
+              <img loading="lazy" src="./assets/images/tenis-aro.jpg" class="w-16 md:w-32" alt="imagen corporativa Tenis Aro">
+              <img loading="lazy" src="./assets/images/Coral.jpg" class="w-16 md:w-32" alt="imagen corporativa Coral">
+              <img loading="lazy" src="./assets/images/media.jpg" class="w-16 md:w-32" alt="imagen corporativa media.com">
+              <img loading="lazy" src="./assets/images/Planas.jpg" class="w-16 md:w-32" alt="imagen corporativa Planas">
+              <img loading="lazy" src="./assets/images/Solis.jpg" class="w-16 md:w-32" alt="imagen corporativaPunt Solis">
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+        </div>
+  <!-- Cookie Banner -->
+  <div id="cb-cookie-banner" class="alert alert-light text-center p-5 z-50" role="alert">
+    <p class="text-black mb-2"> 🍪 Usamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+    <button type="button" class="bg-green-500 text-white rounded-md px-2 py-1" onclick="window.cb_hideCookieBanner()">
+      Aceptar
+    </button>
+  </div>
+  <!-- End of Cookie Banner -->
+  <script type="module" src="./js/aviso.cookies.js"></script>
+  <script type="module" src="./js/lazy.js"></script>
+  <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  <include name="partial-accion" src="./partials/accion.html"></include>
+  <include name="partial-footer" src="./partials/footer.html"></include>
+</body>

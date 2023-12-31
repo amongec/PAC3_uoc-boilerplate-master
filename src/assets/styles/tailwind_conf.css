@@ -1,0 +1,40 @@
+/*@config "/tailwind.config.js";*/
+
+@tailwind base;
+@layer base {
+  html {
+    font-family: "Roboto", system-ui, sans-serif;
+  }
+  .accion {
+   @apply card;
+  }
+  .h2 {
+   @apply responsive-text;
+  }
+}
+
+@tailwind components;
+@layer components {
+    .card {
+      border-radius: theme('borderRadius.lg');
+      padding: theme('spacing.6');
+      box-shadow: theme('boxShadow.xl');
+  }
+    .btn {
+      background-color: theme(colors.teal);
+      border-radius: theme('borderRadius.lg');
+      padding: theme('spacing.3');
+      box-shadow: theme('boxShadow.md');
+    }
+}
+
+@tailwind utilities;
+
+@layer utilities {
+    .responsive-text {  
+      fontSize: theme('md', 'lg','2xl' );
+    }
+    .text-lg{
+      fontSize: theme('1.125rem');
+    }
+}
